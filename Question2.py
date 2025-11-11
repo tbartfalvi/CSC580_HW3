@@ -96,7 +96,7 @@ labels = kmeans.labels_
 _, ax = plt.subplots()
 ax.scatter(X_pca[:,0][labels == 0], X_pca[:,1][labels == 0], c='r')
 ax.scatter(X_pca[:,0][labels == 1], X_pca[:,1][labels == 1], c='b')
-plt.title("Question 2F - PCA Scatter Plot")
+plt.title("Question 2G - PCA Scatter Plot")
 plt.xlabel("PC1")
 plt.ylabel("PC2")
 plt.show()
